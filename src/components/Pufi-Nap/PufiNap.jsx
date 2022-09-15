@@ -13,9 +13,6 @@ const PufiNap = () => {
         <p className="parrafo-nap"> VER MAS</p>
       </div>
       <div className="nap-image">
-      {/* <button className="button-pufi" >SHOP</button> */}
-        {" "}
-        {/* <img src={puff} className="puff-silla" alt="puff" /> */}
       </div>
     </div>
   );

@@ -14,12 +14,11 @@ const NavbarHome = () => {
             {
               <a className="nav-menu-link-one" id="cuenta">
                 MI CUENTA{" "}
-                {/* <img src={line} className="line-li" alt="linea" /> */}
               </a>
             }
           </li>
           <li>
-            <a className="nav-menu-link-one">MI COMPRA</a>
+            <a className="nav-menu-link-one" id="compra">MI COMPRA</a>
           </li>
         </ul>
         <ul className="nav-menu">

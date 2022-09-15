@@ -4,7 +4,6 @@ const PufiCart= () => {
     return (
       <div className="container-cart">
         <div className="container-img-card">
-        {/* <button className="button-shop" >SHOP</button> */}
         </div>
         <div className="cart">
         {<img src={cart} className="cart-icons" alt="bolsa de mercado" />}
