@@ -7,7 +7,7 @@ export default function Footer() {
     <div>
       <footer id="footer">
         <div id="pufi">
-          <img src={pufi} className="logo-pufi" alt="logo" />
+          <img src={pufi} className="logo-pufi-footer" alt="logo" />
         </div>
         <div className="grupo-pufis">
           <p>PUFI RAIN</p>

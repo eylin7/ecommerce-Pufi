@@ -264,7 +264,7 @@
     width: 50%;
     height: 50vh;
    }
-   .footer{
+   #footer{
     display: flex;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 10px;
@@ -279,4 +279,28 @@
    .redes{
     margin-left: 5px;
    }
-   
+   #pufi {
+    margin: auto 5px auto 5px;
+  }
+  .grupo-pufis{
+    border-right: solid 1px rgba(128, 128, 128, 0.495);
+  }
+  .contactos{
+    margin-left: 160px;
+  border-right: solid 1px rgba(128, 128, 128, 0.495);
+  }
+  .compra-pufis{
+    margin-left: 160px;
+  border-right: solid 1px rgba(128, 128, 128, 0.495);
+  }
+  .seguinos-pufis{
+    display: flex;
+  margin-left: 50px;
+  }
+  .redes{
+    margin-left: 5px;
+  }
+  .logo-pufi-footer{
+    width: 40%;
+    height: 40vh;
+  }
