@@ -2,71 +2,265 @@
     background-image: url(../../images/beach.jpg);
     width: 100%;
     height: 118vh;
-    border: solid 2px rebeccapurple;
     background-repeat: no-repeat;
 }
 .nav-menu{
     display: flex;
-    justify-content: center;
     align-items: stretch;
     margin: 0;
     padding: 0;
-    width: 100%;
-    border: solid 2px yellow; 
+     width: 70%;
     list-style-type: none;
-    
 }
 
 .logo{
    width: 15%;
    padding-right: 15px;
-   /* height: 20%; */
-   margin-right: 250px; 
-   border: solid 2px rgb(25, 0, 255); 
-   
- 
- 
-   
+   margin-right: 250px;  
 }
-
 .icons{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 20%; 
-     width: 30%; 
-     margin-left: 20px;
-    border: solid 2px red;
-    
-   
+    width: 40px; 
+    margin-left: 20px;
+}
 
-}
-.container-menu{
-    border: solid 2px rgb(0, 255, 51);
-}
-.nav-menu-item{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.nav-menu-link-one{
     width: 30%;
     height: 30%;
-    border: solid 2px rgb(0, 183, 255);
     margin: 0;
     padding: 0;
- 
-  
-   
-}
-.menu{
-    display: flex;
-    justify-content:right;
-    margin:0;
-    padding: 0;
-    
 }
 .nav-menu-link{
     display: flex;
     align-items: center;
-    margin-inline-end: 10px;
-    border: solid 2px rgb(0, 255, 51); 
+    font-size: 12px;
+    margin-left: 10px;
  }
+ .line{  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 50px;
+    margin-left: 2%;
+ }
+.nav-menu-one{
+    display: flex;
+    justify-content:right;
+    list-style-type: none;
+}
+.nav-menu-link-one{
+    margin-left:20px;
+    color: aliceblue;
+   
+}
+.titulo{
+    justify-items: center;
+    text-align: center;
+    margin: 170px auto auto auto;
+    padding-top: 5px;
+    color: floralwhite;
+    font-size: 40px;
+}
+.parrafo{
+    /* width: 30;
+    height: 40; */
+    display: flex;
+    border: solid 2px white;
+    justify-items: center;
+    text-align: center;
+    margin: 170px auto auto auto;
+    padding-top: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.123);
+    
+}
+
+    .container-rain{
+        display: flex;
+    }
+    .container-img{
+        background-image: url("../../images/girls.jpg");
+        background-repeat: no-repeat;
+        width: 1000%;
+        height: 85vh;
+    }
+  
+    .prueba{
+        display: flex;
+        width: 1000%;
+        height: 82vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    
+    }
+    .parasol-rain{
+        width: 100px;
+      height: 100px;
+    }
+    
+    .button-shop{
+        width: 25;
+        height: 40;
+        display: flex;
+        border: solid 2px white;
+        justify-items: center;
+        text-align: center;
+        margin: 170px auto auto auto;
+        padding-top: 5px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.123);
+    }
+    /* css de pufi puff */
+   .container-principal{
+    display: flex;
+    /* border: solid 5px rgb(14, 238, 33);  */
+   }
+   .cluster-puff{
+    display: flex;
+    width: 1000%;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    /* border: solid 5px rgb(238, 14, 33);  */
+   }
+ /* .puff-red{
+ 
+    border: solid 5px rgb(238, 14, 163); 
+ } */
+ .puff-icons{
+    width: 100px;
+    height: 100px;
+    /* border: solid 5px rgb(122, 14, 238);  */
+ }
+ .puff-image{
+    width: 1000%;
+    height: 82vh;
+    background-image: url("../../images/puff-exterior.jpeg");
+    background-repeat: no-repeat;
+    /* border: solid 5px rgb(238, 14, 163);  */
+
+ }
+ .button-pufi{
+    width: 25;
+    height: 40;
+    display: flex;
+    border: solid 2px white;
+    justify-items: center;
+    text-align: center;
+    margin: 170px auto auto auto;
+    padding-top: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.123);
+ }
+ /* css para el componente cart */
+
+ .container-cart{
+    display: flex;
+    /* border: solid 5px rgb(238, 14, 163);  */
+ }
+ .cart{
+    display: flex;
+    width: 1000%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    /* border: solid 5px rgb(85, 14, 238);  */
+ }
+ .cart-icons{
+    width: 100px;
+    height: 100px;
+    /* border: solid 5px rgb(74, 238, 14);  */
+ 
+ }
+ .container-img-card{
+ background-image: url(../../images/bolsa-image.jpg);
+ background-repeat: no-repeat;
+ width: 1000%;
+ height: 85vh;
+ /* border: solid 5px rgb(238, 14, 137);  */
+ 
+ }
+ /* CSS para el componente Nap  */
+ .container-nap{
+    display: flex;
+     /* border: solid 5px rgb(14, 238, 33);   */
+   }
+   .cluster-nap{
+    display: flex;
+    width: 1000%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    /* border: solid 5px rgb(238, 14, 33);   */
+   }
+   .nap-image{
+    background-image: url(../../images/dormir.jpg);
+    background-repeat: no-repeat;
+    width: 1000%;
+    height: 85vh;
+    margin: left 40px ;
+     /* border: solid 5px rgb(238, 14, 137);    */
+   }
+   .nap-icons{
+    width: 100px;
+    height: 100px;
+    /* border: solid 5px rgb(74, 238, 14);   */
+   }
+   .container-espufi{
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 100px;
+   }
+   .paragraph-one{
+     font-size: 12px;
+     color: rgba(128, 128, 128, 0.911);
+     margin-top: 40px;
+   }
+   .paragraph-two{
+    font-size: 35px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   }
+   .input{
+    border: none;
+   }
+   .espufi-text{
+    width: 570px;
+   padding: 11px;
+   border: solid 1px gray;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+   }
+   .flecha{
+    width: 20px;
+   height: 20px;
+   }
+   .button-espufi{
+    border: none;
+    background: none;
+   }
+   .cuadricula-imagen{
+    width: 50%;
+    height: 50vh;
+   }
