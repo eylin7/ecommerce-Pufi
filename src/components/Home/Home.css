@@ -264,3 +264,19 @@
     width: 50%;
     height: 50vh;
    }
+   .footer{
+    display: flex;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   color: rgb(101, 71, 71);
+   font-weight: bold;
+   }
+   .logo-redes{
+   width: 20%;
+   height: 20px;
+   margin: 5px;
+   }
+   .redes{
+    margin-left: 5px;
+   }
+   
